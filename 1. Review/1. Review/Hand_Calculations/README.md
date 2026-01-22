@@ -1,5 +1,4 @@
 Handwritten Calculations
-![WhatsApp Image 2026-01-22 at 14 04 34](https://github.com/user-attachments/assets/72fe1f71-96d0-4b00-8be2-37bab23249e6)
 ![WhatsApp Image 2026-01-22 at 14 04 34](https://github.com/user-attachments/assets/d414449e-3a35-472a-9593-93be4ede423c)
 ![WhatsApp Image 2026-01-22 at 14 04 54](https://github.com/user-attachments/assets/d816de21-4719-4a24-9337-afb9818cffe2)
 ![WhatsApp Image 2026-01-22 at 14 04 43](https://github.com/user-attachments/assets/5508280e-c9b1-4871-b558-fa4394c662a5)
