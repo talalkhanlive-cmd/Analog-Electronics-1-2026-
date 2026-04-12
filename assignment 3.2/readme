@@ -1,0 +1,63 @@
+# Analog Electronics-1 (2026)
+
+## Assignment 3: Full-Wave Rectifier Simulation Using LTspice
+
+*Student Name:* Hashir Khan  
+*Tool Used:* LTspice  
+*Simulation Type:* Transient Analysis  
+
+---
+
+## Objective
+This assignment simulates a *full-wave rectifier circuit* using LTspice and analyses its waveform behavior.
+
+The circuit converts an AC sine wave input into a pulsating DC output using ideal diodes. A capacitor filter is then added to smooth the output into a more stable DC voltage.
+
+---
+
+## Simulation Parameters
+- *Input Source:* SINE(0 100 50)
+- *Peak Voltage:* 100 V
+- *Frequency:* 50 Hz
+- *Transient Stop Time:* 40 ms
+- *Load Resistance:* 2.2 kΩ
+- *Filter Capacitor:* 470 µF
+
+---
+
+## Submitted Files
+- LTspice schematic file (.asc)
+- Screenshot 1: Schematic window
+- Screenshot 2: Simulation plot
+- Screenshot 3: Capacitor filtered output
+- README.md
+
+---
+
+## Analysis of the Plot
+The waveform plot shows:
+
+- *Input Voltage (Vin):* sinusoidal AC waveform
+- *Output Voltage (Vout):* full-wave rectified waveform
+- Both positive and negative half cycles are converted into positive pulses
+- After adding the capacitor, the output becomes *smooth DC with very small ripple*
+
+This verifies the theoretical behavior of a *bridge rectifier with capacitor filter*.
+
+---
+
+## Observation
+Without capacitor:
+- output is pulsating DC
+- voltage drops to zero between peaks
+
+With capacitor:
+- capacitor charges to peak voltage
+- slowly discharges through load resistor
+- ripple becomes very small
+- output becomes nearly constant DC
+
+---
+
+## Learning Outcome
+Through this assignment, I learned how a full-wave bridge rectifier works in LTspice simulation. I also understood the difference between pulsating DC and filtered DC using a capacitor smoothing circuit.
