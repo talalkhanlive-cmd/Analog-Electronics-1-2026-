@@ -1,0 +1,26 @@
+# LTspice Temperature Effect on 1N4148 Diode
+
+## Objective
+The same 1N4148 diode was simulated at *25 °C* and *75 °C* using LTspice.
+
+## Circuit
+A DC sweep test circuit was used:
+
+V1 -> 1k resistor -> 1N4148 diode -> ground
+
+Sweep range:
+-5 V to 1 V
+
+## Results
+At *25 °C, the diode started conducting at approximately **0.48 V*.
+
+At *75 °C, the turn-on voltage shifted lower to about **0.43 V*.
+
+The reverse leakage current also increased slightly at the higher temperature.
+
+## Explanation
+Temperature affects diode behavior because higher temperature increases the number of free charge carriers inside the semiconductor material.
+
+This reduces the forward voltage required for conduction and increases reverse leakage current.
+
+This matters in real electronic systems because temperature changes can affect voltage drop, power losses, leakage current, and reliability. Engineers must consider temperature effects when designing stable circuits.
